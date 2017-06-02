@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73F148A51EE1214D00C5D821 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F148A41EE1214D00C5D821 /* Printer.m */; };
 		8BF87F841CDB3603001943DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F831CDB3603001943DE /* main.m */; };
 		8BF87F8C1CDB367B001943DE /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F8B1CDB367B001943DE /* Controller.m */; };
-		8BF87F8F1CDB36C1001943DE /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F8E1CDB36C1001943DE /* Printer.m */; };
 		8BF87F921CDB3AA9001943DE /* WonkyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F911CDB3AA9001943DE /* WonkyController.m */; };
 /* End PBXBuildFile section */
 
@@ -26,12 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		73F148A31EE1214D00C5D821 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		73F148A41EE1214D00C5D821 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
 		8BF87F801CDB3603001943DE /* WordPrinter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordPrinter; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF87F831CDB3603001943DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF87F8A1CDB367A001943DE /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		8BF87F8B1CDB367B001943DE /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
-		8BF87F8D1CDB36C1001943DE /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
-		8BF87F8E1CDB36C1001943DE /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
 		8BF87F901CDB3AA9001943DE /* WonkyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonkyController.h; sourceTree = "<group>"; };
 		8BF87F911CDB3AA9001943DE /* WonkyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonkyController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,10 +69,10 @@
 				8BF87F831CDB3603001943DE /* main.m */,
 				8BF87F8A1CDB367A001943DE /* Controller.h */,
 				8BF87F8B1CDB367B001943DE /* Controller.m */,
+				73F148A31EE1214D00C5D821 /* Printer.h */,
+				73F148A41EE1214D00C5D821 /* Printer.m */,
 				8BF87F901CDB3AA9001943DE /* WonkyController.h */,
 				8BF87F911CDB3AA9001943DE /* WonkyController.m */,
-				8BF87F8D1CDB36C1001943DE /* Printer.h */,
-				8BF87F8E1CDB36C1001943DE /* Printer.m */,
 			);
 			path = WordPrinter;
 			sourceTree = "<group>";
@@ -133,8 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F148A51EE1214D00C5D821 /* Printer.m in Sources */,
 				8BF87F921CDB3AA9001943DE /* WonkyController.m in Sources */,
-				8BF87F8F1CDB36C1001943DE /* Printer.m in Sources */,
 				8BF87F841CDB3603001943DE /* main.m in Sources */,
 				8BF87F8C1CDB367B001943DE /* Controller.m in Sources */,
 			);
@@ -257,6 +257,7 @@
 				8BF87F891CDB3603001943DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

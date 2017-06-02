@@ -9,6 +9,7 @@
 #import "Printer.h"
 #import "Controller.h"
 #import "WonkyController.h"
+#import "Printer.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

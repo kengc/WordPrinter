@@ -20,4 +20,15 @@
     }
 }
 
+-(int)printer:(Printer *)printer addStar:(NSString *)text{
+    
+    if ([text hasPrefix:@"A"]) {
+        return 1;
+    } else if ([text hasSuffix:@"?"]) {
+        return 2;
+    } else {
+    return 3;
+    }
+}
+
 @end
